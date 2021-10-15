@@ -1,3 +1,7 @@
+.increment, .decrement{
+    font-family: monospace;
+}
+
 .count{
     font-weight: bold;
 }
