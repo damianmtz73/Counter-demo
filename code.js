@@ -21,6 +21,8 @@ decrementButton.addEventListener("click", decrementNumber)
 
 document.addEventListener("keydown", onKeyPress)
 
-// function onKeyPress{
+function onKeyPress(event){
+    if(event.key === "ArrowRight"){}
+    if(event.key === "ArrowLeft"){}
 
-// }
+}
