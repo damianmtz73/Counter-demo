@@ -26,3 +26,19 @@ function onKeyPress(event){
     if(event.key === "ArrowLeft"){}
 
 }
+// attribute selectors
+let usernameField = document.querySelector("[name='username']")
+let form = document.querySelector("#login-form")
+let emailInputElement = document.querySelector("[name='email']")
+
+
+function onSumbit(event){
+    event.preventDefault()
+    
+    let username = usernameField.value
+    let birthday = form[2].value
+    let email = emailInputElement.value
+
+}
+
+form.addEventListener("sumbit", onSumbit)
